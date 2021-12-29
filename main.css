@@ -3,7 +3,8 @@
   width: 61em;
   margin: auto;
   height: 22em;
-  transform: translate(0%, 50%);
+  transform: translate(-50%, -50%);
+  position: absolute;
 }
 
 div.container {
@@ -35,7 +36,9 @@ p.timer {
 div.inputs {
   width: 400px;
   margin: 0 auto;
-  float: left;
+  position: absolute;
+  left: 0%;
+  top: 0%;
 }
 input {
   display: block;
