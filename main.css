@@ -22,6 +22,7 @@ p.inputs {
   font-family: 'Roboto', sans-serif;
 }
 button {
+  float: left;
   margin: 10px;
 }
 p.timer {
@@ -37,7 +38,7 @@ p.timer {
     
 }
 div.inputs {
-  width: 400px;
+  width: 600px;
   margin: 0 auto;
   position: absolute;
   left: 0%;
