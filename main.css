@@ -3,6 +3,7 @@
   width: 61em;
   margin: auto;
   height: 22em;
+  transform: translate(0%, 50%);
 }
 
 div.container {
