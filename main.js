@@ -1,7 +1,12 @@
 var timerinSeconds = 0;
 var interval;
+var audio;
 
 function Reset() {
+	
+  audio.pause();
+  audio.currentTime = 0;
+	
   clearInterval(interval);
   
   timerinSeconds = 0;
@@ -91,7 +96,7 @@ function StartTimer() {
        document.getElementById("hours").innerHTML = "";
               document.getElementById("seconds").innerHTML = "";
 
-	var audio = new Audio('alarm.mp3');
+	audio = new Audio('alarm.mp3');
 	audio.play();
 
    }
