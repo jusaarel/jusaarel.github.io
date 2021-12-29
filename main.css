@@ -1,6 +1,6 @@
 
 #wrapper {
-  width: 65%;
+  width: 90%;
   margin: auto;
   height: 120px;
 }
@@ -25,7 +25,7 @@ p.timer {
   color: #fff;
   background-color: #222;
   float: left;
-  width: 0.75em;
+  width: 1.1em;
   margin: 10px;
   padding: 20px;
   font-family: 'Roboto', sans-serif;
