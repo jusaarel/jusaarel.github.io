@@ -11,6 +11,13 @@ function Reset() {
    var secondsInput = document.getElementById("inputSeconds");
 	
    var startButton = document.getElementById("startButton");
+	
+   var hourInputP = document.getElementById("HourInputP");
+   var minuteInputP = document.getElementById("MinuteInputP");
+   var secondsInputP = document.getElementById("SecondsInputP");
+
+
+
    
     document.getElementById("hours").innerHTML = "0"
   document.getElementById("minutes").innerHTML = "0"
@@ -20,6 +27,9 @@ function Reset() {
   minuteInput.style.display = "block";
   secondsInput.style.display = "block";
   startButton.style.display = "block";
+  hourInputP.style.display = "block";
+  minuteInputP.style.display = "block";
+  secondsInputP.style.display = "block";
 
 }
 
@@ -31,6 +41,10 @@ function StartTimer() {
    var secondsInput = document.getElementById("inputSeconds");
 	
 	var startButton = document.getElementById("startButton");
+	
+	 var hourInputP = document.getElementById("HourInputP");
+   var minuteInputP = document.getElementById("MinuteInputP");
+   var secondsInputP = document.getElementById("SecondsInputP");
 
   
 	timerinSeconds += hourInput.value * 1000 * 60 * 60;
@@ -40,7 +54,12 @@ function StartTimer() {
   hourInput.style.display = "none";
   minuteInput.style.display = "none";
   secondsInput.style.display = "none";
+	
   startButton.style.display = "none";
+	
+	  hourInputP.style.display = "none";
+  minuteInputP.style.display = "none";
+  secondsInputP.style.display = "none";
 
 
   
