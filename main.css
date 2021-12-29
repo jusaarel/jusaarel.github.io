@@ -1,0 +1,48 @@
+
+#wrapper {
+  width: 400px;
+  margin: auto;
+  height: 120px;
+}
+
+div.container {
+  width: 50px;
+  height: 50px;
+  margin: 20px;
+  padding: 0;
+  float: left;
+}
+p.inputs {
+  color: #fff;
+}
+button {
+  margin: 10px;
+}
+p.timer {
+  text-align: center;
+  font-size: 60px;
+  color: #fff;
+  background-color: #222;
+  float: left;
+  width: 60px;
+  margin: 10px;
+  padding: 20px;
+  font-family: 'dd One', sans-serif;
+  
+}
+div.inputs {
+  width: 400px;
+  margin: 0 auto;
+  float: left;
+}
+input {
+  display: block;
+  float: left;
+  margin: 20px;
+  width: 30px;
+}
+body {
+  color: #000;
+  background-color: #000;
+  overflow: hidden;
+}
