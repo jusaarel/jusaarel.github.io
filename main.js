@@ -92,9 +92,9 @@ function StartTimer() {
   // If the count down is over, write some text 
   if (distance < 0) {
     clearInterval(interval);
-    document.getElementById("minutes").innerHTML = "";
-       document.getElementById("hours").innerHTML = "";
-              document.getElementById("seconds").innerHTML = "";
+    document.getElementById("minutes").innerHTML = "0";
+       document.getElementById("hours").innerHTML = "0";
+              document.getElementById("seconds").innerHTML = "0";
 
 	audio = new Audio('alarm.mp3');
 	audio.play();
