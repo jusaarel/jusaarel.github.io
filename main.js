@@ -91,7 +91,7 @@ function StartTimer() {
        document.getElementById("hours").innerHTML = "";
               document.getElementById("seconds").innerHTML = "";
 
-	var audio = new Audio('audio_file.mp3');
+	var audio = new Audio('alarm.mp3');
 	audio.play();
 
    }
